@@ -1,0 +1,46 @@
+header {
+background-color: #e20b0b;
+color: #fff;
+padding: 10px 0;
+}
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+nav li {
+margin: 0 20px;
+}
+nav a {
+text-decoration: none;
+color: #fff;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+img{
+    max-width: 50%;
+}
+
+
+footer{
+    text-align: right;
+    padding: 10px;
+    background-color: rgb(233, 45, 45);
+    color:#fff
+}
+.skill-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.skill-images img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
